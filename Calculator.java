@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Calculator {
 
 	int add(int a, int b){ 
@@ -6,7 +6,14 @@ public class Calculator {
 	}
 	
 	int sub(int a, int b){ 
-		return a - b; 
+		int a, b;
+		System.out.println("Ingrese primer valor");
+		a = scan.nextInt();
+		System.out.println("Ingrese segundo valor");
+		b = scan.nextInt();
+		int val = a - b;
+
+		int val;
 	}
 
 	int mul(int a, int b){ return 0; }
