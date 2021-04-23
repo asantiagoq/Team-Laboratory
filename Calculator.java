@@ -6,11 +6,6 @@ public class Calculator {
 	}
 	
 	int sub(int a, int b){ 
-		int a, b;
-		System.out.println("Ingrese primer valor");
-		a = scan.nextInt();
-		System.out.println("Ingrese segundo valor");
-		b = scan.nextInt();
 		int val = a - b;
 
 		int val;
