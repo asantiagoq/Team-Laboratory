@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class Calculator {
+	
+
 
 	int add(int a, int b){ 
 		return a + b; 
@@ -8,7 +10,7 @@ public class Calculator {
 	int sub(int a, int b){ 
 		int val = a - b;
 
-		int val;
+		return val;
 	}
 
 	int mul(int a, int b){ return 0; }
